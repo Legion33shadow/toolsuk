@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Legion33shadow.github.io/toolsuk/sitemap.xml
