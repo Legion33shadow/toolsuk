@@ -17,4 +17,4 @@
 <script>
 function go(){const t=document.getElementById('type').value;const a=+document.getElementById('va').value||0;const b=+document.getElementById('vb').value||1;let result='',label='';if(t==='pof'){result=(a/b*100).toFixed(4);label=a+' is '+result+'% of '+b;}else if(t==='pct'){result=(b*a/100).toFixed(4);label=a+'% of '+b+' = '+result;}else if(t==='chg'){result=((b-a)/a*100).toFixed(4);label='Change: '+result+'%';}document.getElementById('res').innerHTML='<div class="rv">'+result+'%</div>'+'<div class="rl">'+label+'</div>';}
 </script>
-</body></html>
+<div style="margin-top:40px;padding:16px;background:#f5f5f5;text-align:center;font-size:13px;font-family:sans-serif">Built by <a href="https://legion-api.com" style="color:#1a1a1a;font-weight:600">LEGION Systems</a> · <a href="https://gemmo.gumroad.com/l/ngtmw" style="color:#8a6a1e">AI Security API €29/mo</a></div></body></html>
